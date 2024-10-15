@@ -87,6 +87,29 @@ section {
 
 #about {
     background-color: #CBE1CE;
+}
+.buisness{
+    height: 494px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buisness * {
+    border: 1px solid black;
+}
+.buisness>img,p{
+    width: 30rem;
+    height: 20rem;
+}
+.buisness>p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
 
 }
 #contact {
