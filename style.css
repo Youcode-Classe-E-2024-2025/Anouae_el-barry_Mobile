@@ -87,7 +87,25 @@ section {
 
 #about {
     background-color: #CBE1CE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1263px;
 }
+.text>h1{
+    font-size: 49.03px;
+
+}
+.text>p{
+    font-size: 47.69px;
+    color: #27252559;
+    font-weight: bold;
+}
+.text>p,h1{
+    text-align: center;
+}
+
 .buisness{
     height: 494px;
     width: 100%;
@@ -99,19 +117,22 @@ section {
 .buisness * {
     border: 1px solid black;
 }
-.buisness>img,p{
-    width: 30rem;
-    height: 20rem;
+.buisness>img{
+    width: 665.15px;
+    height: 373.88px;
 }
 .buisness>p{
-    font-size: 1.1rem;
+    font-size: 24.53px;
+    width: 622px;
+    height:315px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.5em;
-
 }
+
+
 #contact {
     background-color: rgb(50, 190, 205);
 }
