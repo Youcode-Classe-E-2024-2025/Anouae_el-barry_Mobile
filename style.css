@@ -1,0 +1,96 @@
+/*font-family: "Poppins", sans-serif;
+ ;*/
+ html{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+ }
+
+ body{
+    min-height: 400vh;
+    padding: 0;
+    margin: 0;
+ }
+ /*navigation bar*/
+ nav,ul,.menu {
+    display: flex;
+    align-items: center;
+ }
+ nav {
+    background-color: #E3E3E3;
+    justify-content: space-between;
+    height: 100px;
+ }
+ ul{
+    gap: 70px;
+    list-style: none;
+    justify-content: center;
+ }
+ 
+a{
+    text-decoration: none;    
+    color: black;
+    font-weight: bold;
+ }
+.menu{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#logo>img{
+    width: 150.28px;
+}
+#logo {
+    margin-left: 5px;
+}
+/* home section */
+section {
+    min-height: 100vh;
+    height: 100%;
+}
+.title{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.title>p {
+    font-weight: bold;
+}
+
+.title>h1{
+    font-size: 30px;
+}
+.intro {
+    background-image: url(imges/pura70-ultra-kv.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid black;
+}
+
+
+.intro2{
+    width: 100%;
+    text-align: center;
+}
+.intro2>h1{
+    color: #CBE1CE;
+    font-size: 69px;
+}
+.intro2>p{
+    font-size: 19.78px;
+    line-height: 48.6px;
+    color: #CFD2D0;
+}
+
+#about {
+    background-color: yellowgreen;
+}
+#contact {
+    background-color: rgb(50, 190, 205);
+}
+#product {
+    background-color: rgb(170, 50, 16);
+}
