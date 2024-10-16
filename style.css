@@ -22,10 +22,10 @@
  nav {
     background-color: #E3E3E3;
     justify-content: space-between;
-    height: 100px;
+    height: 6.25rem;
  }
  ul{
-    gap: 70px;
+    gap: 4.375rem;
     list-style: none;
     justify-content: center;
  }
@@ -36,23 +36,26 @@ a{
     font-weight: bold;
  }
 .menu{
-    width: 500px;
+    width: 31.25rem;
     align-items: center;
     justify-content: center;
     display: flex;
 }
+
+.menu a:hover {
+   color: #305258;
+   font-weight: 900;
+} 
 #logo>img{
-    width: 150.28px;
+    width: 9.393rem;
 }
 #logo {
-    margin-left: 5px;
+    margin-left: 0.313rem;
 }
 /* home section */
-section {
-    height: 100%;
-}
+
 .title{
-    margin-top: 5px;
+    margin-top: 0.313rem;
     width: 100%;
     text-align: center;
 }
@@ -61,12 +64,12 @@ section {
 }
 
 .title>h1{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .intro {
     background-image: url(imges/pura70-ultra-kv.jpg);
     width: 100%;
-    height: 720px;
+    height: 45rem;
     background-size: cover;
     background-position: center;
 }
@@ -81,8 +84,8 @@ section {
     font-size: 69px;
 }
 .intro2>p{
-    font-size: 19.78px;
-    line-height: 48.6px;
+    font-size: 1.236rem;
+    line-height: 3.038rem;
     color: #CFD2D0;
 }
 
@@ -92,14 +95,14 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    min-height: 1263px;
+    min-height: 78.938rem;
 }
 .text>h1{
-    font-size: 49.03px;
+    font-size: 3.064rem;
 
 }
 .text>p{
-    font-size: 47.69px;
+    font-size:2.981rem;
     color: #27252559;
     font-weight: bold;
 }
@@ -108,7 +111,7 @@ section {
 }
 
 .buisness{
-    height: 494px;
+    height: 30.875rem;
     width: 100%;
     background-color: white;
     display: flex;
@@ -116,13 +119,13 @@ section {
     justify-content: space-evenly;
 }
 .buisness>img{
-    width: 665.15px;
-    height: 373.88px;
+    width: 41.572rem;
+    height: 24.618rem;
 }
 .buisness>p{
-    font-size: 24.53px;
-    width: 622px;
-    height:315px;
+    font-size: 1.533rem;
+    width: 38.875rem;
+    height:19.688rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -133,49 +136,49 @@ section {
 
 
 #product {
-    height: 1565px;
+    height: 97.813rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .section_name{
-    font-size: 47.69px;
+    font-size: 2.981rem;
     font-weight: bold;
 }
 #product>div{
     display: grid;
     grid-template-columns: repeat(2, 1fr) ;
     grid-template-rows:repeat(3,1fr) ;
-    gap: 88px;
-    width: 1336px;
-    height: 1253px;
+    gap: 5.5rem;
+    width: 83.5rem;
+    height: 78.313rem;
 }
 .card{
-    height: 359px;
+    height: 22.438rem;
     border: 1px solid black;
-    border-radius: 17.21px;
+    border-radius: 1.076rem;
     display: flex;
     justify-content: space-between;
    
 }
 
 .phon>img {
-    width: 249px;
-    height: 234px;
+    width: 15.563rem;
+    height: 14.625rem;
 }
 .phon{
     display: flex;
     flex-direction: column;
 }
 .phon>button{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Amiri", serif;
     background-color: #305258;
     color: white;
-    width: 83px;
-    height: 38px;
-    border-radius: 5px;
+    width: 5.188rem;
+    height: 2.375rem;
+    border-radius: 0.313rem;
     margin-left: 5em;
     margin-top: 0.5em;
 }
@@ -191,13 +194,13 @@ section {
     flex-direction: column;
 }
 .phone_text>p {
-    font-size:19.38px;
+    font-size:1.211rem;
     font-weight: bold;
     color: #00000085;
-    line-height: 27.7px;
+    line-height: 1.731rem;
 }
 .phone_text>.name{
-    font-size: 24.53px;
+    font-size:1.533rem;
     color: black;
     font-weight: 800;
 }
@@ -212,19 +215,19 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1874px;
+    height:117.125rem;
 }
 
 form{
-    width: 1109px;
-    height: 1503px;
+    width: 69.313rem;
+    height: 93.938rem;
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
     gap: 2.5em;
 }
 label{
-    font-size: 28.68px;
+    font-size: 1.793rem;
 }
 .bar {
     display: flex;
@@ -232,39 +235,39 @@ label{
     gap: 2.5em;
 }
 .bar [type="text"],[type="email"]{
-    height: 94.25px;
+    height: 5.891rem;
     
 }
 .bar [name="service"]{
-    height: 145.82px;
+    height: 9.114rem;
     
 }
 .bar [name="Budget"]{
-    height: 94.25px;
+    height:5.891rem;
     
 }
 form input,select,textarea {
     background-color: #F7F7F7;
-    padding: 22.54px 32.78px;
-    font-size: 28.68px;
+    padding: 1.409rem 2.049rem;
+    font-size: 1.793rem;
     border: none;
 }
 textarea {
     resize: none;
-    height: 338.06px;
+    height: 21.129rem;
 }
 button {
    width: 100%;
    background-color:black ;
    color: white;
-   font-size: 28.68px;
-   height: 200px;
+   font-size: 1.793rem;
+   height: 12.5rem;
 }
 select {
     appearance: none;
 }
 footer {
-    height: 141px;
+    height: 8.813rem;
     background-color: black;
     display: flex;
     align-items: center;
@@ -278,10 +281,10 @@ footer .icons {
 }
 footer p {
     margin-right:3em;
-    font-size: 15.65px;
+    font-size: 0.353rem;
 }
 .icons{
-    width:150px;
+    width:9.375rem;
     display: flex;
     justify-content: space-between;
 }
