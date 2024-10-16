@@ -3,13 +3,16 @@
     text-transform: capitalize;
     font-size: 16px;
  }
+ *, *::before, *::after {
+    box-sizing: border-box;
+}
+
 
  body{
     min-height: 400vh;
     padding: 0;
     font-family: "Lato", sans-serif;
     margin: 0;
-    box-sizing: border-box;
  }
  /*navigation bar*/
  nav,ul,.menu {
@@ -208,9 +211,8 @@ section {
 #contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 1565px;
+    height: 1874px;
 }
 
 form{
@@ -219,7 +221,7 @@ form{
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
-     gap: 2.5em;
+    gap: 2.5em;
 }
 label{
     font-size: 28.68px;
@@ -251,16 +253,35 @@ textarea {
     resize: none;
     height: 338.06px;
 }
-form>button {
+button {
    width: 100%;
    background-color:black ;
    color: white;
-   height: 200.27px;
    font-size: 28.68px;
+   height: 200px;
 }
 select {
     appearance: none;
 }
 footer {
-    border: 1px solid black;
+    height: 141px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer  > p{
+    color: white;
+}
+footer .icons {
+    margin-left:3em;
+}
+footer p {
+    margin-right:3em;
+    font-size: 15.65px;
+}
+.icons{
+    width:150px;
+    display: flex;
+    justify-content: space-between;
 }
