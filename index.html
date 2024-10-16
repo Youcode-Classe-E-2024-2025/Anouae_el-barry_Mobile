@@ -94,6 +94,7 @@
     </section>
 
     <section id="product">
+        <h1 class="section_name">Our Product</h1>
       <div>
         <div class="card">
           <div class="phon">
@@ -162,6 +163,60 @@
       </div>
     </section>
 
-    <section id="contact"></section>
+    <section id="contact">
+
+        <h1 class="section_name">Contact Us</h1>
+        <form action="/submit" method="post">
+        <div class="bar">
+            <label for="name">
+                name
+            </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="bar">
+            <label for="email">
+                email      
+            </label>
+            <input type="email" name="email" id="email">
+        </div>  
+            
+            <div class="bar">
+                <label for="service">
+                    What service are you interested in
+                </label>
+                <select name="service" id="service">
+                    <option  value="" disabled selected>What service are you interested in</option>
+                    <option value="phone">phone</option>
+                    <option value="tablet">tablet</option>
+                    <option value="pc">pc</option>
+                    <option value="television">television</option>
+                </select>
+            </div> 
+           
+            <div class="bar">
+                <label for="Budget">
+                    Budget
+                </label>
+                <select name="Budget" id="Budget" aria-placeholder="Select project budget">
+                    <option value="" disabled selected>Select project budget</option>
+                    <option value="10000DH">10000DH</option>
+                    <option value="9000DH">9000DH</option>
+                    <option value="5000DH">5000DH</option>
+                    <option value="4400DH">4400DH</option>
+                </select>
+            </div> 
+           
+            <div class="bar">
+                <label for="Message">
+                    Message
+                </label>
+                <textarea name="Message" id="Message">
+
+                </textarea>
+            </div> 
+            <button>submit</button>
+        </form>
+        <footer></footer>
+    </section>
   </body>
 </html>
