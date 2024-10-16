@@ -1,13 +1,14 @@
 /*font-family: "Poppins", sans-serif;
  ;*/
  html{
-    font-family: "Lato", sans-serif;
+    
     font-size: 16px;
  }
 
  body{
     min-height: 400vh;
     padding: 0;
+    font-family: "Lato", sans-serif;
     margin: 0;
  }
  /*navigation bar*/
@@ -52,7 +53,6 @@ section {
     margin-top: 5px;
     width: 100%;
     text-align: center;
-    border: 1px solid black;
 }
 .title>p {
     font-weight: bold;
@@ -67,7 +67,6 @@ section {
     height: 90vh;
     background-size: cover;
     background-position: center;
-    border-bottom: 1px solid black;
 }
 
 
@@ -91,7 +90,7 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 1263px;
+    min-height: 1263px;
 }
 .text>h1{
     font-size: 49.03px;
@@ -114,9 +113,6 @@ section {
     align-items: center;
     justify-content: space-evenly;
 }
-.buisness * {
-    border: 1px solid black;
-}
 .buisness>img{
     width: 665.15px;
     height: 373.88px;
@@ -137,5 +133,73 @@ section {
     background-color: rgb(50, 190, 205);
 }
 #product {
-    background-color: rgb(170, 50, 16);
+    height: 1565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#product>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows:repeat(3,1fr) ;
+    gap: 88px;
+    width: 1336px;
+    height: 1253px;
+}
+.card{
+    height: 359px;
+    border: 1px solid black;
+    border-radius: 17.21px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.phon>img {
+    width: 249px;
+    height: 234px;
+}
+.phon{
+    display: flex;
+    flex-direction: column;
+}
+.phon>button{
+    font-size: 14px;
+    font-family: "Amiri", serif;
+    background-color: #305258;
+    color: white;
+    width: 83px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 5em;
+    margin-top: 0.5em;
+}
+.card>h3 {
+    
+    font-weight: bolder;
+}
+.phone_text {
+    text-align: start;
+    width: 21em;
+    padding-top:3em;
+    display: flex;
+    flex-direction: column;
+}
+.phone_text>p {
+    font-size:19.38px;
+    font-weight: bold;
+    color: #00000085;
+    line-height: 27.7px;
+}
+.phone_text>.name{
+    font-size: 24.53px;
+    color: black;
+    font-weight: 800;
+}
+.phon{
+    padding-top: 2em;
+}
+.price{
+    padding-top: 2em;
 }
