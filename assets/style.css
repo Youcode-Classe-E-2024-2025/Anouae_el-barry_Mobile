@@ -57,7 +57,7 @@ a{
    color: #8d8787c6;
 } 
 #logo>img{
-    width: 12.58;
+    width: 12.58rem;
     height: 2.838rem;
 }
 #logo {
@@ -172,9 +172,10 @@ a{
     border-radius: 1.076rem;
     display: flex;
     justify-content: space-between;
-   
 }
-
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 .phon>img {
     width: 15.563rem;
     height: 14.625rem;
@@ -193,11 +194,13 @@ a{
     border-radius: 0.313rem;
     margin-left: 5em;
     margin-top: 0.5em;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
+    border: none;
 }
 .phon>button:hover {
-    width: 6rem;
-    color: rgb(146, 150, 142);
+    background-color: #305258b5;
+    
+    
 }
 .card>h3 {
     
