@@ -13,6 +13,7 @@
     padding: 0;
     font-family: "Lato", sans-serif;
     margin: 0;
+    padding-top: 8.016rem;
  }
  /*navigation bar*/
  nav,ul,.menu {
@@ -21,8 +22,14 @@
  }
  nav {
     background-color: #E3E3E3;
-    justify-content: space-between;
-    height: 6.25rem;
+    justify-content: space-around;
+    gap: 30rem;
+    height: 8.016rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
  }
  ul{
     gap: 4.375rem;
@@ -36,18 +43,19 @@ a{
     font-weight: bold;
  }
 .menu{
-    width: 31.25rem;
+    min-width: 44.5rem;
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 1.268rem;
 }
 
 .menu a:hover {
    color: #305258;
-   font-weight: 900;
 } 
 #logo>img{
-    width: 9.393rem;
+    width: 12.58;
+    height: 2.838rem;
 }
 #logo {
     margin-left: 0.313rem;
@@ -61,10 +69,11 @@ a{
 }
 .title>p {
     font-weight: bold;
+    font-size: 2.065rem;
 }
 
 .title>h1{
-    font-size: 1.875rem;
+    font-size: 3.721rem;
 }
 .intro {
     background-image: url(imges/pura70-ultra-kv.jpg);
@@ -73,7 +82,6 @@ a{
     background-size: cover;
     background-position: center;
 }
-
 
 .intro2{
     width: 100%;
@@ -125,7 +133,7 @@ a{
 .buisness>p{
     font-size: 1.533rem;
     width: 38.875rem;
-    height:19.688rem;
+    height: 24.618rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -181,6 +189,11 @@ a{
     border-radius: 0.313rem;
     margin-left: 5em;
     margin-top: 0.5em;
+    transition: all 0.5s ease;
+}
+.phon>button:hover {
+    width: 6rem;
+    color: rgb(146, 150, 142);
 }
 .card>h3 {
     
@@ -262,6 +275,7 @@ button {
    color: white;
    font-size: 1.793rem;
    height: 12.5rem;
+   cursor: pointer;
 }
 select {
     appearance: none;
@@ -273,18 +287,45 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-footer  > p{
-    color: white;
-}
 footer .icons {
     margin-left:3em;
-}
-footer p {
-    margin-right:3em;
-    font-size: 0.353rem;
-}
-.icons{
-    width:9.375rem;
+    width:10rem;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin-right:3em;
+    font-size: 0.978rem;
+    color: white;
+}
+
+form button:hover {
+    background-color: rgba(0, 0, 0, 0.435);
+    color: black;
+}
+
+
+button:active {
+    background-color: rgba(65, 62, 62, 0.805);
+    color: black;
+}
+.icons i {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+.icons i:hover {
+    color: #85a099;
+}
+@media (max-width: 1000px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media (max-width: 1350px) {
+   html{
+    font-size: 10px;
+   }
 }
